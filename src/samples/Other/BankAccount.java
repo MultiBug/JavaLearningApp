@@ -1,5 +1,5 @@
 package samples.Other;
-import samples.*;
+
 
 public class BankAccount {
     private double balance = 0;

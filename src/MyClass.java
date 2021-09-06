@@ -1,8 +1,11 @@
 import samples.Animals.*;
 import samples.Cars.*;
 import samples.Other.*;
+import java.util.ArrayList;
 
 public class MyClass {
+    static Object Colors;
+
     static void SayHello(String name) {
         System.out.println("Hello " + name);
     }
@@ -78,6 +81,13 @@ public class MyClass {
             case CAPTAIN:
                 System.out.println("Captain says WELCOME!");
                 break;
+        }
+        try {
+            int t[] = new int[2];
+            System.out.println(t[5]);
+        }
+        catch (Exception e) {
+            System.out.println("An error occurred");
         }
         /*Scanner myVar = new Scanner(System.in);
         System.out.println(myVar.nextLine());*/
